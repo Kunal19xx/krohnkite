@@ -378,6 +378,16 @@ Item {
         text: "Krohnkite: BTree Layout";
         sequence: "";
     }
+    function getDTreeLayout() {
+        return dTreeLayout;
+    }
+    ShortcutHandler {
+        id: dTreeLayout;
+
+        name: "KrohnkiteDTreeLayout";
+        text: "Krohnkite: DTree Layout";
+        sequence: "";
+    }
     function getSpiralLayout() {
         return spiralLayout;
     }

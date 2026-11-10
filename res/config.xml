@@ -132,6 +132,15 @@
         <default>0</default>
     </entry>
 
+    <entry name="dynamicTreeLayoutOrder" type="Int">
+	    <label> DTree layout order (0 = disabled)</label>
+        <default>0</default>
+    </entry>
+    <entry name="dynamicTreeLayoutCapacity" type="Int">
+	    <label>How many tiles can a layout contain before windows start floating or moving to another screen</label>
+        <default>0</default>
+    </entry>
+
     <entry name="cascadeLayoutOrder" type="Int">
 	    <label> Cascade layout order</label>
         <default>12</default>

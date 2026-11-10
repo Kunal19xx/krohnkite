@@ -185,6 +185,7 @@ class KWinConfig implements IConfig {
       [FloatingLayout, true],
       [StairLayout, true],
       [BinaryTreeLayout, true],
+      [DynamicTreeLayout, true],
       [CascadeLayout, true],
     ] as Array<[ILayoutClass, boolean]>;
     const sortedLayouts: ISortedLayouts[] =

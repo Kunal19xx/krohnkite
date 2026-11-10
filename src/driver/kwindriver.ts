@@ -1065,6 +1065,9 @@ class KWinDriver implements IDriverContext {
     this.shortcuts
       .getBTreeLayout()
       .activated.connect(callbackShortcutLayout(BinaryTreeLayout));
+    this.shortcuts
+      .getDTreeLayout()
+      .activated.connect(callbackShortcutLayout(DynamicTreeLayout));
   }
 
   /**

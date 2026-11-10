@@ -145,6 +145,7 @@ interface IShortcuts {
   getColumnsLayout(): ShortcutHandler;
   getSpiralLayout(): ShortcutHandler;
   getBTreeLayout(): ShortcutHandler;
+  getDTreeLayout(): ShortcutHandler;
 
   getRaiseSurfaceCapacity(): ShortcutHandler;
   getLowerSurfaceCapacity(): ShortcutHandler;

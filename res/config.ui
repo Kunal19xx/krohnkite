@@ -1850,6 +1850,52 @@
             </property>
            </widget>
           </item>
+<item>
+        <widget class="QGroupBox" name="GB_b_dynamicTreeLayout_dt">
+         <property name="sizePolicy_dt">
+          <sizepolicy hsizetype="Preferred" vsizetype="Maximum">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="title_dt">
+          <string/>
+         </property>
+         <property name="flat_dt">
+          <bool>true</bool>
+         </property>
+         <layout class="QGridLayout" name="gridLayout_65_dt">
+          <property name="leftMargin_dt">
+           <number>6</number>
+          </property>
+          <property name="topMargin_dt">
+           <number>0</number>
+          </property>
+          <property name="rightMargin_dt">
+           <number>6</number>
+          </property>
+          <property name="bottomMargin_dt">
+           <number>0</number>
+          </property>
+          <property name="verticalSpacing_dt">
+           <number>0</number>
+          </property>
+          <item row="0" column="5">
+           <widget class="QLabel" name="label_112_dt">
+            <property name="font_dt">
+             <font>
+              <family>Noto Sans</family>
+              <pointsize>12</pointsize>
+              <italic>false</italic>
+              <bold>false</bold>
+              <underline>false</underline>
+             </font>
+            </property>
+            <property name="text_dt">
+             <string>Order:</string>
+            </property>
+           </widget>
+          </item>
           <item row="0" column="2">
            <spacer name="horizontalSpacer_59">
             <property name="orientation">
